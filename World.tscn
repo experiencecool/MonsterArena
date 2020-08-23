@@ -4,21 +4,18 @@
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=2]
 
 [node name="World" type="Node2D"]
-__meta__ = {
-"_edit_lock_": true
-}
-
-[node name="Player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 144, 56 )
-
-[node name="Bush4" parent="." instance=ExtResource( 1 )]
-position = Vector2( 56, 48 )
 
 [node name="Bush" parent="." instance=ExtResource( 1 )]
-position = Vector2( 56, 64 )
+position = Vector2( 80, 56 )
 
 [node name="Bush2" parent="." instance=ExtResource( 1 )]
-position = Vector2( 56, 80 )
+position = Vector2( 80, 72 )
 
 [node name="Bush3" parent="." instance=ExtResource( 1 )]
-position = Vector2( 56, 96 )
+position = Vector2( 80, 88 )
+
+[node name="Bush4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 80, 104 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 192, 56 )
